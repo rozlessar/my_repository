@@ -1,0 +1,160 @@
+/* basic */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+         /* взяли шрифты с google fonts и прописали правило font-family: 'Inter', sans-serif;*/
+    font-family: 'Inter', sans-serif;
+}
+
+/* header */
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+
+    /* это правила для центровочного контейнера */
+}
+
+.img{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+
+.header-wrapper{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex; 
+    margin: 0 auto;
+}
+
+.header-contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_social{
+    display: flex;
+    list-style-type: none;
+}
+
+.social_icon_vk, .social_icon_telegram, .social_icon_whatsUp{
+    width: 32px;
+    height: 23px;  
+}
+.info-box{
+    margin-top: 50px;
+    display: flex; 
+    background-color: #f8f8ff;
+    border-radius: 5%;
+    margin-left: 35px;
+    width: 750px;
+
+}
+
+.info-list > li{
+    padding: 8px;
+    margin-left: 50px;
+    padding-right: 50px;
+    list-style-type: none;
+    color: #9999A3;
+    
+}
+.right > li{
+   color: black;
+   
+}
+
+/*main*/
+.main-wrapper{
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 136px;
+
+}
+
+.main-box{
+    padding-left: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.main-content{
+    max-width: 64%;
+}
+
+
+.main-list:nth-child(1n){
+    color: #Bcbcc2;
+}
+
+.main-text{
+    background-color: #A9A9FD;
+    color: white;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.more{
+    background-color: #F1A9FD;
+    color: white;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+/* skills, language*/
+
+.skills, .language, .aboutMe, .recommendation{
+    margin-left: 290px;
+    margin-bottom: 50px;
+    margin-right: 136px;
+
+}
+
+span{
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #F5F5FA;
+}
+
+.recom{
+    height: 250px;
+    margin-left: 100px;
+    border: 15px solid #F5F5FA;
+    border-style: double;
+
+}
+
+
+.quote{
+    position: right;
+    text-align: right;
+    margin-top: 204px;
+    margin-left: 25px;
+}
+
+.citata{
+display: flex;
+}
+
+.main-list{
+    color: #000000;
+}
+
+.colortext{
+    color:#000000;   
+}
+
+.exp{
+    padding: 15px 290px; 
+    color: #BCBCC2;
+}
+
+.zagolovok{
+    color:#BCBCC2; 
+    margin-bottom: 30px; 
+}
